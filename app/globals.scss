@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+$main-color:#E9E9E9;
+$text-color:#242223;
+$darkred-color:#EE232F;
+$lightred-color:#F9EAEB;
+$Button-color:#262626;
+
+:root{
+    --main-color: #{$main-color};
+    --text-color: #{$text-color};
+    --darkred-color: #{$darkred-color};
+    --lightred-color: #{$lightred-color};
+    --Button-color: #{$Button-color};
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+body{
+    background-color: var(--main-color) !important;
+}
+
+
